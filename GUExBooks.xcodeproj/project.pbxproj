@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		740181B51DDA8A6B001F07D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740181B41DDA8A6B001F07D4 /* AppDelegate.swift */; };
+		740181B71DDA8A6B001F07D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740181B61DDA8A6B001F07D4 /* ViewController.swift */; };
+		740181BA1DDA8A6B001F07D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740181B81DDA8A6B001F07D4 /* Main.storyboard */; };
+		740181BD1DDA8A6B001F07D4 /* GUExBooks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 740181BB1DDA8A6B001F07D4 /* GUExBooks.xcdatamodeld */; };
+		740181BF1DDA8A6B001F07D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740181BE1DDA8A6B001F07D4 /* Assets.xcassets */; };
+		740181C21DDA8A6B001F07D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740181C01DDA8A6B001F07D4 /* LaunchScreen.storyboard */; };
+		740181CD1DDA8A6B001F07D4 /* GUExBooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740181CC1DDA8A6B001F07D4 /* GUExBooksTests.swift */; };
+		740181D81DDA8A6B001F07D4 /* GUExBooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740181D71DDA8A6B001F07D4 /* GUExBooksUITests.swift */; };
+		74A43BFE1DE71F10006AFD16 /* Account+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A43BFC1DE71F10006AFD16 /* Account+CoreDataClass.swift */; };
+		74A43BFF1DE71F10006AFD16 /* Account+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A43BFD1DE71F10006AFD16 /* Account+CoreDataProperties.swift */; };
+		74A43C081DE71F47006AFD16 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A43C001DE71F47006AFD16 /* User+CoreDataClass.swift */; };
+		74A43C091DE71F47006AFD16 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A43C011DE71F47006AFD16 /* User+CoreDataProperties.swift */; };
+		74A43C0A1DE71F47006AFD16 /* Book+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A43C021DE71F47006AFD16 /* Book+CoreDataClass.swift */; };
+		74A43C0B1DE71F47006AFD16 /* Book+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A43C031DE71F47006AFD16 /* Book+CoreDataProperties.swift */; };
+		74A43C0C1DE71F47006AFD16 /* Order+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A43C041DE71F47006AFD16 /* Order+CoreDataClass.swift */; };
+		74A43C0D1DE71F47006AFD16 /* Order+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A43C051DE71F47006AFD16 /* Order+CoreDataProperties.swift */; };
+		74A43C0E1DE71F47006AFD16 /* Payment+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A43C061DE71F47006AFD16 /* Payment+CoreDataClass.swift */; };
+		74A43C0F1DE71F47006AFD16 /* Payment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A43C071DE71F47006AFD16 /* Payment+CoreDataProperties.swift */; };
+		74A43C121DE72001006AFD16 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A43C111DE72001006AFD16 /* CoreDataController.swift */; };
+		74EB26F61DEC8A2600FD9809 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EB26F51DEC8A2600FD9809 /* OrderViewController.swift */; };
+		74EB26F81DEC8A3200FD9809 /* OrderDBConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EB26F71DEC8A3200FD9809 /* OrderDBConnector.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		740181C91DDA8A6B001F07D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 740181A91DDA8A6A001F07D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 740181B01DDA8A6A001F07D4;
+			remoteInfo = GUExBooks;
+		};
+		740181D41DDA8A6B001F07D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 740181A91DDA8A6A001F07D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 740181B01DDA8A6A001F07D4;
+			remoteInfo = GUExBooks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		740181B11DDA8A6B001F07D4 /* GUExBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GUExBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		740181B41DDA8A6B001F07D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		740181B61DDA8A6B001F07D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		740181B91DDA8A6B001F07D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		740181BC1DDA8A6B001F07D4 /* GUExBooks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GUExBooks.xcdatamodel; sourceTree = "<group>"; };
+		740181BE1DDA8A6B001F07D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		740181C11DDA8A6B001F07D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		740181C31DDA8A6B001F07D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740181C81DDA8A6B001F07D4 /* GUExBooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GUExBooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		740181CC1DDA8A6B001F07D4 /* GUExBooksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GUExBooksTests.swift; sourceTree = "<group>"; };
+		740181CE1DDA8A6B001F07D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740181D31DDA8A6B001F07D4 /* GUExBooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GUExBooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		740181D71DDA8A6B001F07D4 /* GUExBooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GUExBooksUITests.swift; sourceTree = "<group>"; };
+		740181D91DDA8A6B001F07D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A43BFC1DE71F10006AFD16 /* Account+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Account+CoreDataClass.swift"; sourceTree = "<group>"; };
+		74A43BFD1DE71F10006AFD16 /* Account+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Account+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		74A43C001DE71F47006AFD16 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		74A43C011DE71F47006AFD16 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		74A43C021DE71F47006AFD16 /* Book+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataClass.swift"; sourceTree = "<group>"; };
+		74A43C031DE71F47006AFD16 /* Book+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		74A43C041DE71F47006AFD16 /* Order+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataClass.swift"; sourceTree = "<group>"; };
+		74A43C051DE71F47006AFD16 /* Order+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		74A43C061DE71F47006AFD16 /* Payment+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Payment+CoreDataClass.swift"; sourceTree = "<group>"; };
+		74A43C071DE71F47006AFD16 /* Payment+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Payment+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		74A43C111DE72001006AFD16 /* CoreDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		74EB26F51DEC8A2600FD9809 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		74EB26F71DEC8A3200FD9809 /* OrderDBConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDBConnector.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		740181AE1DDA8A6A001F07D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740181C51DDA8A6B001F07D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740181D01DDA8A6B001F07D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		740181A81DDA8A6A001F07D4 = {
+			isa = PBXGroup;
+			children = (
+				740181B31DDA8A6B001F07D4 /* GUExBooks */,
+				740181CB1DDA8A6B001F07D4 /* GUExBooksTests */,
+				740181D61DDA8A6B001F07D4 /* GUExBooksUITests */,
+				740181B21DDA8A6B001F07D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		740181B21DDA8A6B001F07D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				740181B11DDA8A6B001F07D4 /* GUExBooks.app */,
+				740181C81DDA8A6B001F07D4 /* GUExBooksTests.xctest */,
+				740181D31DDA8A6B001F07D4 /* GUExBooksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		740181B31DDA8A6B001F07D4 /* GUExBooks */ = {
+			isa = PBXGroup;
+			children = (
+				740181B41DDA8A6B001F07D4 /* AppDelegate.swift */,
+				740181B61DDA8A6B001F07D4 /* ViewController.swift */,
+				740181B81DDA8A6B001F07D4 /* Main.storyboard */,
+				740181BE1DDA8A6B001F07D4 /* Assets.xcassets */,
+				740181C01DDA8A6B001F07D4 /* LaunchScreen.storyboard */,
+				740181C31DDA8A6B001F07D4 /* Info.plist */,
+				74EB26F51DEC8A2600FD9809 /* OrderViewController.swift */,
+				74EB26F71DEC8A3200FD9809 /* OrderDBConnector.swift */,
+				740181BB1DDA8A6B001F07D4 /* GUExBooks.xcdatamodeld */,
+				74A43C101DE71F57006AFD16 /* CoreDataFiles */,
+			);
+			path = GUExBooks;
+			sourceTree = "<group>";
+		};
+		740181CB1DDA8A6B001F07D4 /* GUExBooksTests */ = {
+			isa = PBXGroup;
+			children = (
+				740181CC1DDA8A6B001F07D4 /* GUExBooksTests.swift */,
+				740181CE1DDA8A6B001F07D4 /* Info.plist */,
+			);
+			path = GUExBooksTests;
+			sourceTree = "<group>";
+		};
+		740181D61DDA8A6B001F07D4 /* GUExBooksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				740181D71DDA8A6B001F07D4 /* GUExBooksUITests.swift */,
+				740181D91DDA8A6B001F07D4 /* Info.plist */,
+			);
+			path = GUExBooksUITests;
+			sourceTree = "<group>";
+		};
+		74A43C101DE71F57006AFD16 /* CoreDataFiles */ = {
+			isa = PBXGroup;
+			children = (
+				74A43C111DE72001006AFD16 /* CoreDataController.swift */,
+				74A43C001DE71F47006AFD16 /* User+CoreDataClass.swift */,
+				74A43C011DE71F47006AFD16 /* User+CoreDataProperties.swift */,
+				74A43C021DE71F47006AFD16 /* Book+CoreDataClass.swift */,
+				74A43C031DE71F47006AFD16 /* Book+CoreDataProperties.swift */,
+				74A43C041DE71F47006AFD16 /* Order+CoreDataClass.swift */,
+				74A43C051DE71F47006AFD16 /* Order+CoreDataProperties.swift */,
+				74A43C061DE71F47006AFD16 /* Payment+CoreDataClass.swift */,
+				74A43C071DE71F47006AFD16 /* Payment+CoreDataProperties.swift */,
+				74A43BFC1DE71F10006AFD16 /* Account+CoreDataClass.swift */,
+				74A43BFD1DE71F10006AFD16 /* Account+CoreDataProperties.swift */,
+			);
+			name = CoreDataFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		740181B01DDA8A6A001F07D4 /* GUExBooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740181DC1DDA8A6B001F07D4 /* Build configuration list for PBXNativeTarget "GUExBooks" */;
+			buildPhases = (
+				740181AD1DDA8A6A001F07D4 /* Sources */,
+				740181AE1DDA8A6A001F07D4 /* Frameworks */,
+				740181AF1DDA8A6A001F07D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GUExBooks;
+			productName = GUExBooks;
+			productReference = 740181B11DDA8A6B001F07D4 /* GUExBooks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		740181C71DDA8A6B001F07D4 /* GUExBooksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740181DF1DDA8A6B001F07D4 /* Build configuration list for PBXNativeTarget "GUExBooksTests" */;
+			buildPhases = (
+				740181C41DDA8A6B001F07D4 /* Sources */,
+				740181C51DDA8A6B001F07D4 /* Frameworks */,
+				740181C61DDA8A6B001F07D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				740181CA1DDA8A6B001F07D4 /* PBXTargetDependency */,
+			);
+			name = GUExBooksTests;
+			productName = GUExBooksTests;
+			productReference = 740181C81DDA8A6B001F07D4 /* GUExBooksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		740181D21DDA8A6B001F07D4 /* GUExBooksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740181E21DDA8A6B001F07D4 /* Build configuration list for PBXNativeTarget "GUExBooksUITests" */;
+			buildPhases = (
+				740181CF1DDA8A6B001F07D4 /* Sources */,
+				740181D01DDA8A6B001F07D4 /* Frameworks */,
+				740181D11DDA8A6B001F07D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				740181D51DDA8A6B001F07D4 /* PBXTargetDependency */,
+			);
+			name = GUExBooksUITests;
+			productName = GUExBooksUITests;
+			productReference = 740181D31DDA8A6B001F07D4 /* GUExBooksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		740181A91DDA8A6A001F07D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Gannon;
+				TargetAttributes = {
+					740181B01DDA8A6A001F07D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
+					};
+					740181C71DDA8A6B001F07D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
+						TestTargetID = 740181B01DDA8A6A001F07D4;
+					};
+					740181D21DDA8A6B001F07D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
+						TestTargetID = 740181B01DDA8A6A001F07D4;
+					};
+				};
+			};
+			buildConfigurationList = 740181AC1DDA8A6A001F07D4 /* Build configuration list for PBXProject "GUExBooks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 740181A81DDA8A6A001F07D4;
+			productRefGroup = 740181B21DDA8A6B001F07D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				740181B01DDA8A6A001F07D4 /* GUExBooks */,
+				740181C71DDA8A6B001F07D4 /* GUExBooksTests */,
+				740181D21DDA8A6B001F07D4 /* GUExBooksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		740181AF1DDA8A6A001F07D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740181C21DDA8A6B001F07D4 /* LaunchScreen.storyboard in Resources */,
+				740181BF1DDA8A6B001F07D4 /* Assets.xcassets in Resources */,
+				740181BA1DDA8A6B001F07D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740181C61DDA8A6B001F07D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740181D11DDA8A6B001F07D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		740181AD1DDA8A6A001F07D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740181B71DDA8A6B001F07D4 /* ViewController.swift in Sources */,
+				740181BD1DDA8A6B001F07D4 /* GUExBooks.xcdatamodeld in Sources */,
+				74A43C0B1DE71F47006AFD16 /* Book+CoreDataProperties.swift in Sources */,
+				74A43C0A1DE71F47006AFD16 /* Book+CoreDataClass.swift in Sources */,
+				74A43C081DE71F47006AFD16 /* User+CoreDataClass.swift in Sources */,
+				74A43C091DE71F47006AFD16 /* User+CoreDataProperties.swift in Sources */,
+				74A43C0F1DE71F47006AFD16 /* Payment+CoreDataProperties.swift in Sources */,
+				74A43BFF1DE71F10006AFD16 /* Account+CoreDataProperties.swift in Sources */,
+				740181B51DDA8A6B001F07D4 /* AppDelegate.swift in Sources */,
+				74A43C0E1DE71F47006AFD16 /* Payment+CoreDataClass.swift in Sources */,
+				74A43C121DE72001006AFD16 /* CoreDataController.swift in Sources */,
+				74EB26F61DEC8A2600FD9809 /* OrderViewController.swift in Sources */,
+				74A43C0C1DE71F47006AFD16 /* Order+CoreDataClass.swift in Sources */,
+				74A43C0D1DE71F47006AFD16 /* Order+CoreDataProperties.swift in Sources */,
+				74EB26F81DEC8A3200FD9809 /* OrderDBConnector.swift in Sources */,
+				74A43BFE1DE71F10006AFD16 /* Account+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740181C41DDA8A6B001F07D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740181CD1DDA8A6B001F07D4 /* GUExBooksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740181CF1DDA8A6B001F07D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740181D81DDA8A6B001F07D4 /* GUExBooksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		740181CA1DDA8A6B001F07D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 740181B01DDA8A6A001F07D4 /* GUExBooks */;
+			targetProxy = 740181C91DDA8A6B001F07D4 /* PBXContainerItemProxy */;
+		};
+		740181D51DDA8A6B001F07D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 740181B01DDA8A6A001F07D4 /* GUExBooks */;
+			targetProxy = 740181D41DDA8A6B001F07D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		740181B81DDA8A6B001F07D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740181B91DDA8A6B001F07D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		740181C01DDA8A6B001F07D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740181C11DDA8A6B001F07D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		740181DA1DDA8A6B001F07D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		740181DB1DDA8A6B001F07D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		740181DD1DDA8A6B001F07D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GUExBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gannon.edu.GUExBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		740181DE1DDA8A6B001F07D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GUExBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gannon.edu.GUExBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		740181E01DDA8A6B001F07D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GUExBooksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gannon.edu.GUExBooksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GUExBooks.app/GUExBooks";
+			};
+			name = Debug;
+		};
+		740181E11DDA8A6B001F07D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GUExBooksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gannon.edu.GUExBooksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GUExBooks.app/GUExBooks";
+			};
+			name = Release;
+		};
+		740181E31DDA8A6B001F07D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GUExBooksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gannon.edu.GUExBooksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GUExBooks;
+			};
+			name = Debug;
+		};
+		740181E41DDA8A6B001F07D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GUExBooksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gannon.edu.GUExBooksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GUExBooks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		740181AC1DDA8A6A001F07D4 /* Build configuration list for PBXProject "GUExBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740181DA1DDA8A6B001F07D4 /* Debug */,
+				740181DB1DDA8A6B001F07D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740181DC1DDA8A6B001F07D4 /* Build configuration list for PBXNativeTarget "GUExBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740181DD1DDA8A6B001F07D4 /* Debug */,
+				740181DE1DDA8A6B001F07D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740181DF1DDA8A6B001F07D4 /* Build configuration list for PBXNativeTarget "GUExBooksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740181E01DDA8A6B001F07D4 /* Debug */,
+				740181E11DDA8A6B001F07D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740181E21DDA8A6B001F07D4 /* Build configuration list for PBXNativeTarget "GUExBooksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740181E31DDA8A6B001F07D4 /* Debug */,
+				740181E41DDA8A6B001F07D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		740181BB1DDA8A6B001F07D4 /* GUExBooks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				740181BC1DDA8A6B001F07D4 /* GUExBooks.xcdatamodel */,
+			);
+			currentVersion = 740181BC1DDA8A6B001F07D4 /* GUExBooks.xcdatamodel */;
+			path = GUExBooks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 740181A91DDA8A6A001F07D4 /* Project object */;
+}
