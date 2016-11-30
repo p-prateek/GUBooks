@@ -28,6 +28,9 @@
 		74A43C121DE72001006AFD16 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A43C111DE72001006AFD16 /* CoreDataController.swift */; };
 		74EB26F61DEC8A2600FD9809 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EB26F51DEC8A2600FD9809 /* OrderViewController.swift */; };
 		74EB26F81DEC8A3200FD9809 /* OrderDBConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EB26F71DEC8A3200FD9809 /* OrderDBConnector.swift */; };
+		DD8EF0111DEE6CC400BB555E /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EF0101DEE6CC400BB555E /* Detail.swift */; };
+		DD8EF0131DEE6D3700BB555E /* SearchMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EF0121DEE6D3700BB555E /* SearchMasterViewController.swift */; };
+		DD8EF0171DEE6D9800BB555E /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EF0161DEE6D9800BB555E /* Books.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,9 @@
 		74A43C111DE72001006AFD16 /* CoreDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
 		74EB26F51DEC8A2600FD9809 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		74EB26F71DEC8A3200FD9809 /* OrderDBConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDBConnector.swift; sourceTree = "<group>"; };
+		DD8EF0101DEE6CC400BB555E /* Detail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		DD8EF0121DEE6D3700BB555E /* SearchMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchMasterViewController.swift; sourceTree = "<group>"; };
+		DD8EF0161DEE6D9800BB555E /* Books.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,9 @@
 				740181B41DDA8A6B001F07D4 /* AppDelegate.swift */,
 				740181B61DDA8A6B001F07D4 /* ViewController.swift */,
 				740181B81DDA8A6B001F07D4 /* Main.storyboard */,
+				DD8EF0161DEE6D9800BB555E /* Books.swift */,
+				DD8EF0121DEE6D3700BB555E /* SearchMasterViewController.swift */,
+				DD8EF0101DEE6CC400BB555E /* Detail.swift */,
 				740181BE1DDA8A6B001F07D4 /* Assets.xcassets */,
 				740181C01DDA8A6B001F07D4 /* LaunchScreen.storyboard */,
 				740181C31DDA8A6B001F07D4 /* Info.plist */,
@@ -309,9 +318,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8EF0131DEE6D3700BB555E /* SearchMasterViewController.swift in Sources */,
+				DD8EF0171DEE6D9800BB555E /* Books.swift in Sources */,
 				740181B71DDA8A6B001F07D4 /* ViewController.swift in Sources */,
 				740181BD1DDA8A6B001F07D4 /* GUExBooks.xcdatamodeld in Sources */,
 				74A43C0B1DE71F47006AFD16 /* Book+CoreDataProperties.swift in Sources */,
+				DD8EF0111DEE6CC400BB555E /* Detail.swift in Sources */,
 				74A43C0A1DE71F47006AFD16 /* Book+CoreDataClass.swift in Sources */,
 				74A43C081DE71F47006AFD16 /* User+CoreDataClass.swift in Sources */,
 				74A43C091DE71F47006AFD16 /* User+CoreDataProperties.swift in Sources */,
