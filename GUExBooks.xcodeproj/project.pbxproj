@@ -26,6 +26,7 @@
 		74A43C0E1DE71F47006AFD16 /* Payment+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A43C061DE71F47006AFD16 /* Payment+CoreDataClass.swift */; };
 		74A43C0F1DE71F47006AFD16 /* Payment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A43C071DE71F47006AFD16 /* Payment+CoreDataProperties.swift */; };
 		74A43C121DE72001006AFD16 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A43C111DE72001006AFD16 /* CoreDataController.swift */; };
+		74CB1D2B1DEE6CE900088A60 /* DBConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CB1D2A1DEE6CE900088A60 /* DBConnector.swift */; };
 		74EB26F61DEC8A2600FD9809 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EB26F51DEC8A2600FD9809 /* OrderViewController.swift */; };
 		74EB26F81DEC8A3200FD9809 /* OrderDBConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EB26F71DEC8A3200FD9809 /* OrderDBConnector.swift */; };
 /* End PBXBuildFile section */
@@ -73,6 +74,7 @@
 		74A43C061DE71F47006AFD16 /* Payment+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Payment+CoreDataClass.swift"; sourceTree = "<group>"; };
 		74A43C071DE71F47006AFD16 /* Payment+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Payment+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		74A43C111DE72001006AFD16 /* CoreDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		74CB1D2A1DEE6CE900088A60 /* DBConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBConnector.swift; sourceTree = "<group>"; };
 		74EB26F51DEC8A2600FD9809 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		74EB26F71DEC8A3200FD9809 /* OrderDBConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDBConnector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +136,7 @@
 				74EB26F51DEC8A2600FD9809 /* OrderViewController.swift */,
 				74EB26F71DEC8A3200FD9809 /* OrderDBConnector.swift */,
 				740181BB1DDA8A6B001F07D4 /* GUExBooks.xcdatamodeld */,
+				74CB1D2A1DEE6CE900088A60 /* DBConnector.swift */,
 				74A43C101DE71F57006AFD16 /* CoreDataFiles */,
 			);
 			path = GUExBooks;
@@ -312,6 +315,7 @@
 				740181B71DDA8A6B001F07D4 /* ViewController.swift in Sources */,
 				740181BD1DDA8A6B001F07D4 /* GUExBooks.xcdatamodeld in Sources */,
 				74A43C0B1DE71F47006AFD16 /* Book+CoreDataProperties.swift in Sources */,
+				74CB1D2B1DEE6CE900088A60 /* DBConnector.swift in Sources */,
 				74A43C0A1DE71F47006AFD16 /* Book+CoreDataClass.swift in Sources */,
 				74A43C081DE71F47006AFD16 /* User+CoreDataClass.swift in Sources */,
 				74A43C091DE71F47006AFD16 /* User+CoreDataProperties.swift in Sources */,
